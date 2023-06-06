@@ -1,0 +1,78 @@
+.calculator {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.calculator input[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.calculator .keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.calculator button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculator button:hover {
+  background-color: #d4d4d4;
+}
+
+.calculator .operator {
+  background-color: #f2a365;
+  color: #fff;
+}
+
+.calculator .operator:hover {
+  background-color: #e69254;
+}
+
+.calculator .clear {
+  background-color: #b3b3b3;
+  color: #fff;
+}
+
+.calculator .clear:hover {
+  background-color: #959595;
+}
+
+.calculator .backspace {
+  background-color: #b3b3b3;
+  color: #fff;
+}
+
+.calculator .backspace:hover {
+  background-color: #959595;
+}
+
+.calculator .equal {
+  background-color: #7dc97d;
+  color: #fff;
+}
+
+.calculator .equal:hover {
+  background-color: #6bba6b;
+}
