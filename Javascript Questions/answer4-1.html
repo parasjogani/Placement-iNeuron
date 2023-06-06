@@ -1,0 +1,19 @@
+<div id="outer">
+    <div id="inner">
+        <button id="btn">Click me</button>
+    </div>
+</div>
+
+<script>
+    document.getElementById("btn").addEventListener("click", function () {
+        console.log("Button clicked");
+    });
+
+    document.getElementById("inner").addEventListener("click", function () {
+        console.log("Inner div clicked");
+    });
+
+    document.getElementById("outer").addEventListener("click", function () {
+        console.log("Outer div clicked");
+    });
+</script>
